@@ -1,13 +1,30 @@
 # week2_task
 #bank.py
-#program to add two amounts of money
+
+#program to add two amounts of money in cents
 #input reads in a string so we need to convert it to an integer
 #so we can then do mathematical interpretation
-# i need to research currency formats
+
+x = int(input("Enter amount 1 (in cent): ")) 
+y = int(input("Enter amount 2 (in cent) "))
+
+total = float((x/100) + (y/100)) # the total amount
 
 
-x = int(input('Enter amount 1: '))
-print (x)
-print(f'x' + str(1))
+print (f"The sum of these is €{total}")
+
+
+      
+      
+
+      
+
+
+
+
+
+
+
+
 
 
