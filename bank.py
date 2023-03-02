@@ -1,4 +1,5 @@
 # week2_task
+# Author: Orla Dowling
 #bank.py
 
 #program to add two amounts of money in cents
