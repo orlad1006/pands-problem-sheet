@@ -4,5 +4,24 @@
 # Write program that reads in a 10 character account number and outputs account number with only the last
 # 4 digits showing e.g. xxxxxx2589
 
-accnum = str(input("Please enter a 10 digit account number:  "))
+accountnum = str(input("Please enter a 10 digit account number:  "))
+
+print("XXXXXX" + accountnum[6:])
+
+
+#modidy the program to  deal with account numbers of any lenght
+# use negative indexing to print last 4 digits only
+
+print(accountnum[-4:])
+
+
+
+
+
+
+
+
+
+
+
 
