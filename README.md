@@ -1,14 +1,17 @@
 # pands-problem-sheet
 Author: Orla Dowling
 
-## Week 1 : 
+## Week 1: 
 Title: helloworld.py /n
 Task: Print "Hello World"
 ## Week 2:
 Title: bank.py/n
 Task: Create a program that inputs two values in cents and then adds the two amounts and outputs the total in euro and cents 
-
-
+## Week 3:
+Title: accounts.py/n
+Task: Create a program that inputs a 10 character account number and outputs the account number with only last 4 digits displaying./n 
+Replace the first 6 digits with X
+git
 
 
 
