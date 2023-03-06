@@ -9,17 +9,13 @@ from dataclasses import replace
 
 accountnum = str(input("Please enter a 10 digit account number:  "))
 
-print("XXXXXX" + accountnum[6:])
+print("XXXXXX" + accountnum[-4:])
 
 
 #modidy the program to  deal with account numbers of any lenght
-# print last 4 digits only
-# all characters to position -5 replace with X
 
-initial_digits= (accountnum)[0:-5]
-last_4_digits = (accountnum)[-4:]   
 
-print(last_4_digits)
+
 
 
 

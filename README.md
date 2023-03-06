@@ -21,6 +21,10 @@ Task: Create a program that inputs a 10 character account number and outputs the
 
 Replace the first 6 digits with X
 
+I did this by creating a variable that asked the user to input and account number.  
+I then outputed the last 4 digits by using [0:-4] and prefixing with 6 'X'
+
+
 
 
 
