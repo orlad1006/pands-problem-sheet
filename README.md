@@ -19,20 +19,17 @@ Title: accounts.py
 
 Task: Create a program that inputs a 10 character account number and outputs the account number with only last 4 digits displaying.  
 
-Replace the first 6 digits with X
-My notes:  
+Replace the first 6 digits with X  
 
-I did this by creating a variable that asked the user to input an account number.  
-I then outputed the last 4 digits by using [-4:] and prefixing with 6 'X'
-This prints as XXXXXX and the 4 characters counting from the end of the number inputed
+My notes:   
+I did this by creating a variable that asked the user to input an account number.   then outputed the last 4 digits by using [-4:] and prefixing with 6 'X'. This prints as XXXXXX and the 4 characters counting from the end of the number inputed.   
+This worked when I entered the 10 digit number 0123456789 to print out XXXXXX6789. When I inputed a number of with 4 digits or more it printed out as XXXXXX6789 .  
 
-This worked when I entered the 10 digit number 0123456789 to print out XXXXXX6789  
-When I inputed a number of with 4 digits or more it printed out as XXXXXX6789 
 If the number is less than 4 digits it prints out 6'X's and the entered digits  
 
-I spent a lot of time trying to use the inbuilt function replace to replace all characters up to the 4th  
-last digit with 'X' but no matter what I tried it would not run.  
-It did not like [:-4] as the 'old value' in the replace function.  
+I spent a lot of time trying to use the inbuilt function replace to replace all characters up to the 4th last digit with 'X' but no matter what I tried it would not run.  It did not like [:-4] as the 'old value' in the replace function.  
+https://realpython.com/replace-string-python/  
+
 
 
 
