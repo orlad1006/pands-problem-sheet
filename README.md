@@ -31,9 +31,20 @@ I spent a lot of time trying to use the inbuilt function replace to replace all 
 https://realpython.com/replace-string-python/  
 
 
+##Week 04:  
+Title: collatz.py  
 
+Task:  
+Write a program called collatz that askes user to input any positive integer.  
+It then outputs a number using a calculation based on the current value (user input)
+If the user inputs an even number then divide by 2.   
+If the user inputs an odd number then multipy by 3 and add one  
 
-
+My Notes:  
+In the first line of code the number is defined as an int and string is used when asking the user to input a positive integer number.  
+The first line of code is the  **while loop** . The while loop will execute a set of statements as long as a condition is true . This states that  the code should execute while the number is not equal to 1 . When the number reaches 1 the code will stop running. This is a indefinate iteration as long as the number is not 1.  
+The **if** statement will run as long as the statement is true. Statement here is if the number is even (%2==0). Then the number  will be divided by 2 and will be floored (//2). We use the floor function so the number won't have a decimal point when the code runs.  
+If this **if** statement is not true the **else** statement will run and take the number and multiple by 3 and add 1.
 
 
 

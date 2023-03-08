@@ -2,8 +2,8 @@
 # Author: Orla Dowling
 
 # write a program that askes user to input any positive integer
-# then outputs the calculation
-
+# then outputs the calculation based on the current value (user input)
+#if even divide by 2
 #if odd : multipy by 3 and add one
 
 
@@ -19,5 +19,5 @@ while number !=1:# this loop will ensure code will run until number reaches 1
     else: # everthing that isn't even is odd
         number=  3 * number + 1
         print(number)  
-        
+
 
