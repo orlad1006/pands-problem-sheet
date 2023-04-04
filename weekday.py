@@ -19,4 +19,4 @@ else:
 #x=datetime.datetime.now()
 #print(x)-this will tell the date but not the day name. Need to change the code 
 #so that program knows weekdays.The python weekday function of class date returns the day
-#of the week as an integer. It starts from 0 for a Monday and ends at 6 for a Sunda
+#of the week as an integer. It starts from 0 for a Monday and ends at 6 for a Sunday
