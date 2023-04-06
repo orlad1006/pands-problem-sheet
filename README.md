@@ -31,7 +31,7 @@ I spent a lot of time trying to use the inbuilt function replace to replace all 
 https://realpython.com/replace-string-python/  
 
 
-##Week 04:  
+##    Week 04:  
 Title: collatz.py  
 
 Task:  
@@ -46,6 +46,20 @@ The first line of code is the  **while loop** . The while loop will execute a se
 The **if** statement will run as long as the statement is true. Statement here is if the number is even (%2==0). Then the number  will be divided by 2 and will be floored (//2). We use the floor function so the number won't have a decimal point when the code runs.  
 If this **if** statement is not true the **else** statement will run and take the number and multiple by 3 and add 1.
 
+
+## Week 5
+
+
+
+## Week 6
+
+
+## Week 7
+
+
+## Week 8
+
+## Week 9
 
 
 
