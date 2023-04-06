@@ -44,10 +44,53 @@ My Notes:
 In the first line of code the number is defined as an int and string is used when asking the user to input a positive integer number.  
 The first line of code is the  **while loop** . The while loop will execute a set of statements as long as a condition is true . This states that  the code should execute while the number is not equal to 1 . When the number reaches 1 the code will stop running. This is a indefinate iteration as long as the number is not 1.  
 The **if** statement will run as long as the statement is true. Statement here is if the number is even (%2==0). Then the number  will be divided by 2 and will be floored (//2). We use the floor function so the number won't have a decimal point when the code runs.  
-If this **if** statement is not true the **else** statement will run and take the number and multiple by 3 and add 1.
+If this **if** statement is not true the **else** statement will run and take the number and multiple by 3 and add 1.  
 
 
-## Week 5
+References  
+
+https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
+
+https://www.youtube.com/watch?v=lAp_5qTdOhM
+
+https://m-nayoumi.medium.com/generating-a-collatz-sequence-using-a-python-program-56c8fbc318c9
+
+https://www.educative.io/edpresso/how-to-generate-the-collatz-sequence-in-python
+
+
+https://www.w3schools.com/python/python_while_loops.asp  
+
+## Week 5  
+Title: Weekday.py  
+
+Task: Write a program that outputs whether or not today is a weekday  
+
+My Notes:  
+
+To begin we import a module named datetime to work with dates as date objects.
+
+We then use functions from the datetime module to define what the day is.
+
+For today's date, we use the datetime.today() function from datetime module
+
+The python weekday function of class date returns the day number of the week as an integer (automatically defaults to an integer) . It starts from 0 for a Monday and ends at 6 for a Sunday
+
+Then using the conditional statement if and else we can write the decision making process so that the code will be able to decide whether today is a weekday or weekend.
+
+Then the code will check if the day is less than 5 (interger value that the weekeday function will use) then its a weekday otherwise it is a weekend.
+
+References:
+
+https://www.w3schools.com/python/python_datetime.asp
+
+https://www.dataquest.io/blog/python-datetime-tutorial/
+
+https://docs.python.org/3/library/datetime.html
+
+https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
+
+https://www.tutorialsrack.com/articles/324/how-to-find-the-current-day-is-weekday-or-weekends-in-python
+
 
 
 
