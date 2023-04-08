@@ -94,7 +94,42 @@ https://www.tutorialsrack.com/articles/324/how-to-find-the-current-day-is-weekda
 
 
 
-## Week 6
+## Week 6  
+Title:  squareroot.py  
+
+Task:  
+Write a program that takes a positive floating-point number as input and outputs an approximation of its square root. Create a function called sqrt. Do not use built in functions in this task - research Newtons method of estimating square roots.
+
+My Notes:  
+
+I wanted a function that would
+1. read in a positive float number - user input
+2. return the sqaure root of that number - printed out on the terminal
+
+I used Newtons method to create a program that calulates an approximate sqaure root containing a while loop to run through iterations until the best approximation of sqaure root is found.  
+
+Newton's Method:  
+Step 1: Assume approx as half the input number given by the user  
+approx = 0.5*num  
+
+Step 2:  Find a better value by  
+better = 0.5(approx + num/approx)  
+
+Step 3: While better found is not equal to the assumed approx  
+    Step 3.1: Assume the found better value as approx approx = better
+    Step 3.2: Recalculate better value using better = 0.5*(approx +         num/approx)  
+Step 4: Print that better value as the square root.
+
+
+
+
+References:  
+https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/  
+https://www.youtube.com/watch?v=u-OmVr_fT4s
+https://www.youtube.com/watch?v=xdlIFw5EM4w
+https://www.freecodecamp.org/news/python-functions-define-and-call-a-function/
+
+
 
 
 ## Week 7
@@ -102,7 +137,7 @@ https://www.tutorialsrack.com/articles/324/how-to-find-the-current-day-is-weekda
 
 ## Week 8
 
-## Week 9
+
 
 
 
