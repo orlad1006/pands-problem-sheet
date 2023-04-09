@@ -144,11 +144,14 @@ My notes:
 1. To read in a text file, the file must already exist or it will throw an error 
 2. The file to be read should ideally be saved within the same directory as the program, to make it easier to retrieve the file path when typing the name of the text file on the command line.  
 3. I saved a txt file of moby dick from www.guten.org to the pands directory on my desktop
-4. I checked that the file 
+4. Command Line argument is a way of managing the script or program externally by providing the script name and the input parameters from command line options while executing the script.
 
 References  
-https://www.gutenberg.org/
-https://www.gutenberg.org/files/2701/2701-0.txt
+https://www.gutenberg.org/files/2701/2701-0.txt  
+https://www.w3schools.com/python/python_file_open.asp  
+https://stackoverflow.com/questions/63066948/how-to-write-a-function-that-takes-in-the-name-of-a-file-as-the-argument-in-pyth  
+https://s3-us-west-2.amazonaws.com/oww-files-public/b/b8/HW6syntaxHelper.pdf
+https://www.knowledgehut.com/blog/programming/sys-argv-python-examples
 
 
 ## Week 8
