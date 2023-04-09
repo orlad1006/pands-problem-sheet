@@ -132,7 +132,23 @@ https://www.freecodecamp.org/news/python-functions-define-and-call-a-function/
 
 
 
-## Week 7
+## Week 7  
+
+Title: es.py
+Author: Orla Dowling 
+Task: Write a program that reads in a text file and output the numbers of e's it contains.  
+The program should take the file name in from an argument on the command line
+
+
+My notes:  
+1. To read in a text file, the file must already exist or it will throw an error 
+2. The file to be read should ideally be saved within the same directory as the program, to make it easier to retrieve the file path when typing the name of the text file on the command line.  
+3. I saved a txt file of moby dick from www.guten.org to the pands directory on my desktop
+4. I checked that the file 
+
+References  
+https://www.gutenberg.org/
+https://www.gutenberg.org/files/2701/2701-0.txt
 
 
 ## Week 8
@@ -146,7 +162,6 @@ https://www.markdownguide.org/cheat-sheet/
 
 https://docs.github.com/en/get-started/writing-on-github  
 getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github  
-
 https://www.w3schools.com/python  
 
 
