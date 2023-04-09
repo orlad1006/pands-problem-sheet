@@ -150,8 +150,9 @@ References
 https://www.gutenberg.org/files/2701/2701-0.txt  
 https://www.w3schools.com/python/python_file_open.asp  
 https://stackoverflow.com/questions/63066948/how-to-write-a-function-that-takes-in-the-name-of-a-file-as-the-argument-in-pyth  
-https://s3-us-west-2.amazonaws.com/oww-files-public/b/b8/HW6syntaxHelper.pdf
-https://www.knowledgehut.com/blog/programming/sys-argv-python-examples
+https://s3-us-west-2.amazonaws.com/oww-files-public/b/b8/HW6syntaxHelper.pdf  
+https://www.knowledgehut.com/blog/programming/sys-argv-python-examples  
+https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
 
 
 ## Week 8
