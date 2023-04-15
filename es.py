@@ -3,15 +3,20 @@
 #Task: Write a program that reads in a text file and out put the numbers of e's
 
 # To read the file from the command line, we need to import and use the sys module.
+
+#python es.py
+
 import sys
 
+
+filename=sys.argv[1] # define the modydick.txt as filename. es.py = 0 mobydick.txt =1 
+
 # This equates the name of the file to be read to the first argument on the command line
-# (that is, the argument following the name of the python script itself)
+# (that is, the argument following the name of the python script itself i.e es.py)
 
-filename = sys.argv[1]
 
-#with open (filename) as f:
-    #print (f.read())- check that the file will read in correctly
+with open (filename) as f:
+    print (f.read()) #check that the file will read in correctly
 
 
 
@@ -30,5 +35,4 @@ def Number_of_E(filename, letter):
     
   
 print(Number_of_E ('filename', 'e'))       
-        
 
