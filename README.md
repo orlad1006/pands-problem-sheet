@@ -14,6 +14,29 @@ Title: bank.py
 
 Task: Create a program that inputs two values in cents and then adds the two amounts and outputs the total in euro and cents  
 
+
+My Notes:  
+I want this program to add two amounts of money that is inputted by the user in cents and print out the total in euro and cents. The input reads in a string so I need to convert it to an integer(specifying variable type) so that I can do mathematical calculation on it in cents as a whole number to later convert it to euros and cents.  
+
+Feedback from Andrew: Try not use floats. See attempt 2.   
+Using floats when dealing with currency is not ideal as rounding errors can result in significant discrepancies in financial caluculations.  
+Attempt 2: To avoid using floats I used floored divison and modulo operators to get euros and cents in two amounts
+
+
+
+
+
+
+References:  
+https://martinfowler.com/eaaCatalog/money.html
+https://www.w3schools.com/python/python_casting.asp
+https://www.stechies.com/floor-division-python/
+
+
+
+
+
+
 ## Week 3:
 Title: accounts.py  
 
@@ -155,10 +178,52 @@ https://www.knowledgehut.com/blog/programming/sys-argv-python-examples
 https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
 
 
-## Week 8
+## Week 8  
+Title: plottask.py  
+
+Author: Orla Dowling  
+
+Task: Write a program called plottask.py that displays:
+1. a histogram of a normal distribution of a 1000 values with a mean of  and standard deviation of 2  
+2. a plot of the function  h(x)=x3 in the range [0, 10],  
+They should be on the one set of axes.
+#Some marks will be given for making the plot look nice (legend etc)  
+
+My Notes:  
+Matplotlib is python’s data visualization library which is widely used for the purpose of data visualization.  
+Numpy is a general-purpose array-processing package. It provides a high-performance multidimensional array object, and tools for working with these arrays. It is the fundamental package for scientific computing with Python  
+
+Part 1: Histogram  
+
+Firstly to draw a plt.hist of normal distribution i will use:  
+
+1. random.normal() method for finding the normal distribution of the data. It has three parameters:  
+2. np.random.seed(1) to generate the same random numbers each time it is run - easier to debug
+3. loc – (average/mean) where the top of the bell is located.
+4. Scale – (standard deviation) how uniform you want the graph to be distributed.
+5. size – Shape of the returning Array
+
+ so i created the following program   
+    normaldist = np.random.normal(loc=5, scale = 2, size = 1000)  
+This will generate 1000 random values around the mean of 5 with an SD of 2  
+
+I used print(normaldist) to see that it works before plotting before using the following code to plot the histogram and style it.  
 
 
 
+Part 2:
+
+
+
+
+
+
+References:  
+https://www.geeksforgeeks.org/how-to-plot-normal-distribution-over-histogram-in-python/  
+https://www.geeksforgeeks.org/how-to-plot-a-normal-distribution-with-matplotlib-in-python/?ref=rp  
+https://datatofish.com/plot-histogram-python/
+https://matplotlib.org/stable/gallery/subplots_axes_and_figures/two_scales.html
+https://stackoverflow.com/questions/24519122/how-to-cube-a-number
 
 ## REFERENCES  
 
