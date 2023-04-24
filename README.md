@@ -51,7 +51,19 @@ This worked when I entered the 10 digit number 0123456789 to print out XXXXXX678
 If the number is less than 4 digits it prints out 6'X's and the entered digits  
 
 I spent a lot of time trying to use the inbuilt function replace to replace all characters up to the 4th last digit with 'X' but no matter what I tried it would not run.  It did not like [:-4] as the 'old value' in the replace function.  
-https://realpython.com/replace-string-python/  
+https://realpython.com/replace-string-python/    
+
+
+Feedback  
+
+References:   
+https://www.w3schools.com/python/python_variables.asp
+https://www.w3schools.com/python/python_strings.asp
+https://www.w3schools.com/python/python_strings_slicing.asp
+https://www.w3schools.com/python/python_ref_string.asp  
+
+
+
 
 
 ##    Week 04:  
