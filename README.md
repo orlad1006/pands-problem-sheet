@@ -44,8 +44,11 @@ Task: Create a program that inputs a 10 character account number and outputs the
 
 Replace the first 6 digits with X  
 
-My notes:   
-I did this by creating a variable that asked the user to input an account number.   then outputed the last 4 digits by using [-4:] and prefixing with 6 'X'. This prints as XXXXXX and the 4 characters counting from the end of the number inputed.   
+My notes:  
+
+Attempt 1  
+
+I did this by creating a variable that asked the user to input an account number then outputed the last 4 digits by using [-4:] and prefixing with 6 'X'. This prints as XXXXXX and the 4 characters counting from the end of the number inputed.   
 This worked when I entered the 10 digit number 0123456789 to print out XXXXXX6789. When I inputed a number of with 4 digits or more it printed out as XXXXXX6789 .  
 
 If the number is less than 4 digits it prints out 6'X's and the entered digits  
@@ -54,13 +57,30 @@ I spent a lot of time trying to use the inbuilt function replace to replace all 
 https://realpython.com/replace-string-python/    
 
 
-Feedback  
+
+Attempt 2: 
+Feedback from Andrew : what happens if the account number is less than 10 numbers
+
+I created a program that would ask the user to input a 10 digit account umber. If the user did not enter   10 digits then I wanted the program to be able to handle shorter account numbers e.g.  5 to 9 digits.
+I split the account number I wanted returned into 2 parts.  
+
+
+1. Start of account number that is replaced by Xs - number of digits user dependent  
+
+
+2.Last 4 digits of account number to be displayed  
+
+
+To take the first part I used the len function to determine the lenght of the account number inputed by the user. I subtracted 4 from the lenght of the number to determine the numbers of X's required. I created 'X' as a string so that it could be repeated easily using the * operator. 
+
+For the second part of the required output Iused th slice function to only didplay the digits from the 4th last position to the end. 
 
 References:   
 https://www.w3schools.com/python/python_variables.asp
 https://www.w3schools.com/python/python_strings.asp
 https://www.w3schools.com/python/python_strings_slicing.asp
 https://www.w3schools.com/python/python_ref_string.asp  
+https://linuxhint.com/how-do-you-repeat-a-string-n-times-in-python/
 
 
 
