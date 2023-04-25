@@ -10,41 +10,47 @@ in Atlantic Technological University.
 
 ## Week 1:  
 
-# Title: helloworld.py  
+### Title: helloworld.py  
 
-# Task:  
+### Task:  
 Print "Hello World"  
+
+### References  
+https://www.markdownguide.org/cheat-sheet/  
+https://docs.github.com/en/get-started/writing-on-github  
+getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github  
+https://www.w3schools.com/python
 
 ## Week 2:  
 
-# Title: bank.py  
+### Title: bank.py  
 
-# Task:  
+### Task:  
 Create a program that inputs two values in cents and then adds the two amounts and outputs the total in euro and cents  
 
 
-# My Notes:  
+### My Notes:  
 
 I want this program to add two amounts of money that is inputted by the user in cents and print out the total in euro and cents. The input reads in a string so I need to convert it to an integer(specifying variable type) so that I can do mathematical calculation on it in cents as a whole number to later convert it to euros and cents.  
 Feedback from Andrew: Try not use floats. See attempt 2.   
 Using floats when dealing with currency is not ideal as rounding errors can result in significant discrepancies in financial caluculations.  
 Attempt 2: To avoid using floats I used floored divison and modulo operators to get euros and cents in two amounts
 
-# References:  
+### References:  
 https://martinfowler.com/eaaCatalog/money.html
 https://www.w3schools.com/python/python_casting.asp
 https://www.stechies.com/floor-division-python/
 
 ## Week 3:  
 
-# Title: accounts.py  
+#### Title: accounts.py  
 
-# Task:  
+### Task:  
 Create a program that inputs a 10 character account number and outputs the account number with only last 4 digits displaying.  
 
 Replace the first 6 digits with X  
 
-# My notes:  
+### My notes:  
 
 Attempt 1  
 
@@ -74,7 +80,7 @@ To take the first part I used the len function to determine the lenght of the ac
 
 For the second part of the required output Iused th slice function to only didplay the digits from the 4th last position to the end. 
 
-# References:   
+### References:   
 https://www.w3schools.com/python/python_variables.asp
 https://www.w3schools.com/python/python_strings.asp
 https://www.w3schools.com/python/python_strings_slicing.asp
@@ -85,16 +91,16 @@ https://linuxhint.com/how-do-you-repeat-a-string-n-times-in-python/
 
 ##    Week 04:  
 
-# Title: collatz.py  
+### Title: collatz.py  
 
-# Task:  
+### Task:  
 
 Write a program called collatz that askes user to input any positive integer.  
 It then outputs a number using a calculation based on the current value (user input)
 If the user inputs an even number then divide by 2.   
 If the user inputs an odd number then multipy by 3 and add one  
 
-# My Notes:  
+### My Notes:  
 
 In the first line of code the number is defined as an int and string is used when asking the user to input a positive integer number.  
 The first line of code is the  **while loop** . The while loop will execute a set of statements as long as a condition is true . This states that  the code should execute while the number is not equal to 1 . When the number reaches 1 the code will stop running. This is a indefinate iteration as long as the number is not 1.  
@@ -106,7 +112,7 @@ Each number is outputted to it's own line.
 
 This is because  the default for the print function is a new line \n.  I used (object, end"" ) in theprint functions to print output on one line.  
 
-# References  
+### References  
  
 https://www.freecodecamp.org/news/python-print-without-new-line-print-on-the-same-line/
 https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
@@ -116,21 +122,19 @@ https://www.w3schools.com/python/python_while_loops.asp
 
 ## Week 5  
 
-# Title:  Weekday.py  
+### Title:  Weekday.py  
 
-# Task:  
+### Task:  
+
 Write a program that outputs whether or not today is a weekday  
 
-# My Notes:  
+### My Notes:  
 
-To begin we import a module named datetime to work with dates as date objects.
-We then use functions from the datetime module to define what the day is.
-For today's date, we use the datetime.today() function from datetime module
-The python weekday function of class date returns the day number of the week as an integer (automatically defaults to an integer) . It starts from 0 for a Monday and ends at 6 for a Sunday
-Then using the conditional statement if and else we can write the decision making process so that the code will be able to decide whether today is a weekday or weekend.
-Then the code will check if the day is less than 5 (interger value that the weekeday function will use) then its a weekday otherwise it is a weekend.
+To begin I imported a module named datetime to work with dates as date objects.  I used functions from the datetime module to define what the day is e.g.  use the datetime.today() function for today's date.  The python weekday function of class date returns the day number of the week as an integer (automatically defaults to an integer). It starts from 0 for a Monday and ends at 6 for a Sunday
+Then I used the  **if** and **else** statements to determine whether today is a weekday or weekend.
+The code will check if the day is less than 5 (int value) then its a weekday otherwise it is a weekend.
 
-# References:
+### References:
 
 https://www.w3schools.com/python/python_datetime.asp
 https://www.dataquest.io/blog/python-datetime-tutorial/
@@ -141,12 +145,12 @@ https://www.tutorialsrack.com/articles/324/how-to-find-the-current-day-is-weekda
 
 ## Week 6  
 
-# Title:  squareroot.py  
+### Title:  squareroot.py  
 
-# Task:  
+### Task:  
 Write a program that takes a positive floating-point number as input and outputs an approximation of its square root. Create a function called sqrt. Do not use built in functions in this task - research Newtons method of estimating square roots.
 
-# My Notes:  
+### My Notes:  
 
 I wanted a function that would
 1. read in a positive float number - user input
@@ -169,7 +173,7 @@ Step 4: Print that better value as the square root.
 
 
 
-# References:  
+### References:  
 https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/  
 https://www.youtube.com/watch?v=u-OmVr_fT4s
 https://www.youtube.com/watch?v=xdlIFw5EM4w
@@ -178,22 +182,22 @@ https://www.freecodecamp.org/news/python-functions-define-and-call-a-function/
 
 ## Week 7  
 
-# Title: es.py
+### Title: es.py
  
-# Task:  
+### Task:  
 
 Write a program that reads in a text file and output the numbers of e's it contains.  
 The program should take the file name in from an argument on the command line
 
 
-# My notes:
+### My notes:
 
 1. To read in a text file, the file must already exist or it will throw an error 
 2. The file to be read should ideally be saved within the same directory as the program, to make it easier to retrieve the file path when typing the name of the text file on the command line.  
 3. I saved a txt file of moby dick from www.guten.org to the pands directory on my desktop
 4. Command Line argument is a way of managing the script or program externally by providing the script name and the input parameters from command line options while executing the script.
 
-# References  
+### References  
 https://www.gutenberg.org/files/2701/2701-0.txt  
 https://www.w3schools.com/python/python_file_open.asp  
 https://stackoverflow.com/questions/63066948/how-to-write-a-function-that-takes-in-the-name-of-a-file-as-the-argument-in-pyth  
@@ -204,9 +208,10 @@ https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-te
 
 ## Week 8  
 
-# Title: plottask.py  
+### Title: plottask.py  
 
-# Task:  
+### Task:  
+
 Write a program called plottask.py that displays:
 1. a histogram of a normal distribution of a 1000 values with a mean of  and standard deviation of 2  
 2. a plot of the function  h(x)=x3 in the range [0, 10],  
@@ -214,6 +219,7 @@ They should be on the one set of axes.
 #Some marks will be given for making the plot look nice (legend etc)  
 
 # My Notes:  
+
 Matplotlib is python’s data visualization library which is widely used for the purpose of data visualization.  
 Numpy is a general-purpose array-processing package. It provides a high-performance multidimensional array object, and tools for working with these arrays. It is the fundamental package for scientific computing with Python  
 
@@ -242,20 +248,15 @@ Part 2:
 
 
 
-# References:  
+### References:  
+ 
 https://www.geeksforgeeks.org/how-to-plot-normal-distribution-over-histogram-in-python/  
 https://www.geeksforgeeks.org/how-to-plot-a-normal-distribution-with-matplotlib-in-python/?ref=rp  
 https://datatofish.com/plot-histogram-python/
 https://matplotlib.org/stable/gallery/subplots_axes_and_figures/two_scales.html
 https://stackoverflow.com/questions/24519122/how-to-cube-a-number
 
-## REFERENCES  
-
-https://www.markdownguide.org/cheat-sheet/  
-
-https://docs.github.com/en/get-started/writing-on-github  
-getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github  
-https://www.w3schools.com/python  
+  
 
 
 ## TECHNOLOGY  
