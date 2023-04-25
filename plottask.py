@@ -16,18 +16,22 @@ normaldist = np.random.normal(loc=5, scale = 2, size = 1000)
 
 #print(normaldist) # to see that it works before plotting
 
+
+
+plt.hist(normaldist, color = 'g') # display histogram, green colour
+
+
 xpoints = np.array(range(0,10)) # range of values on the x axis
 ypoints = xpoints**xpoints # cube of x
 
-plt.hist(normaldist, color = 'g') # display histogram, green colour
 plt.plot(xpoints, ypoints, label = "xcubed", color = "red", ls = "dashed", lw ="2") 
 
 plt.title("Week 8 Task: Learning to Plot", color = 'black') # adds title in black
 plt. legend() #shows legend box
-plt.grid() # shows grid line
+plt.grid(axis = 'y') # shows grid line
 plt.xlabel ("Value (X)", color ="green")
 plt.ylabel ("X Cubed", color ="green")
-
+plt.yscale("log") # changed the y axis scale to log as default is linear 
 plt.savefig('histplot.png') # Save to PNG file
 
 plt.show() # displays plots

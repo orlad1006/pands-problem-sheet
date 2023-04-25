@@ -234,28 +234,27 @@ Numpy is a general-purpose array-processing package. It provides a high-performa
 
 Part 1: Histogram  
 
-Firstly to draw a plt.hist of normal distribution i will use:  
+Firstly to draw a plt.hist of a normal distribution I used the random.normal() method for finding the normal distribution of the data. It has three parameters:  
+ 1. loc – (average/mean) where the top of the bell is located. 
+ 2. scale – (standard deviation) how uniform you want the graph to be distributed.
+ 3. size – Shape of the returning Array
 
-1. random.normal() method for finding the normal distribution of the data. It has three parameters:  
-2. np.random.seed(1) to generate the same random numbers each time it is run - easier to debug
-3. loc – (average/mean) where the top of the bell is located.
-4. Scale – (standard deviation) how uniform you want the graph to be distributed.
-5. size – Shape of the returning Array
+The I used np.random.seed(1) to generate the same random numbers each time it is run - easier to debug
 
- so i created the following program   
-    normaldist = np.random.normal(loc=5, scale = 2, size = 1000)  
-This will generate 1000 random values around the mean of 5 with an SD of 2  
+I created the program normaldist that when called will generate 1000 random values around the mean of 5 with an SD of 2  
 
 I used print(normaldist) to see that it works before plotting before using the following code to plot the histogram and style it.  
 
 
 
-Part 2:
+Part 2: Line plot 
+The function h(x) = xcubed
+I set the x point variable to be an value created in an array from 0 to 10. The y point was the x value cubed. 
+Then I plotted x points versus y points and styled the line plot.
 
+Problems: 
 
-
-
-
+I could run the histogram plot and the line plt sepatately and see them clearly but when I ran plt.hist and plt.plot in the same program only the line plot would be visible.  I assumed this was due to the y scale so I changed it from the default linear scale to the log scale.  That way I can see both plots on the one graph.
 
 ### References:  
  
