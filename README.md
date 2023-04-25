@@ -15,7 +15,6 @@ Print "Hello World"
 ### References  
 https://www.markdownguide.org/cheat-sheet/  
 https://docs.github.com/en/get-started/writing-on-github  
-getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github  
 https://www.w3schools.com/python
 
 ## Week 2:  
@@ -70,7 +69,7 @@ I split the account number I wanted returned into 2 parts.
 1. Start of account number that is replaced by Xs - number of digits user dependent  
 
 
-2.Last 4 digits of account number to be displayed  
+2. Last 4 digits of account number to be displayed  
 
 
 To take the first part I used the len function to determine the lenght of the account number inputed by the user. I subtracted 4 from the lenght of the number to determine the numbers of X's required. I created 'X' as a string so that it could be repeated easily using the * operator. 
