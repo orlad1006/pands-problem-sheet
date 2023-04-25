@@ -5,9 +5,6 @@ Author: Orla Dowling
 This document describes and explains my work to solve weekly problem tasks assigned by Andrew Beatty for the Programming and Scripting module for the Higher Diploma in Computing in Data Analytics course
 in Atlantic Technological University.  
 
-<!-- #Table of Contents -->
-
-
 ## Week 1:  
 
 ### Title: helloworld.py  
@@ -43,7 +40,7 @@ https://www.stechies.com/floor-division-python/
 
 ## Week 3:  
 
-#### Title: accounts.py  
+### Title: accounts.py  
 
 ### Task:  
 Create a program that inputs a 10 character account number and outputs the account number with only last 4 digits displaying.  
@@ -167,9 +164,10 @@ better = 0.5(approx + num/approx)
 
 Step 3: While better found is not equal to the assumed approx  
     Step 3.1: Assume the found better value as approx approx = better
-    Step 3.2: Recalculate better value using better = 0.5*(approx +         num/approx)  
+    Step 3.2: Recalculate better value using better = 0.5*(approx + num/approx)  
 Step 4: Print that better value as the square root.
 
+I realise that my code returns quite a poor approximation of the sqaure root. It would be better to use an inbuilt function for an accurate value.  
 
 
 
@@ -192,10 +190,21 @@ The program should take the file name in from an argument on the command line
 
 ### My notes:
 
-1. To read in a text file, the file must already exist or it will throw an error 
-2. The file to be read should ideally be saved within the same directory as the program, to make it easier to retrieve the file path when typing the name of the text file on the command line.  
-3. I saved a txt file of moby dick from www.guten.org to the pands directory on my desktop
-4. Command Line argument is a way of managing the script or program externally by providing the script name and the input parameters from command line options while executing the script.
+To read in a text file, the file must already exist or it will throw an error. I chose Little Women
+The file to be read should ideally be saved within the same directory as the program, to make it easier to retrieve the file path when typing the name of the text file on the command line.  Therefore I saved a txt file of moby dick from www.guten.org to the pands directory on my desktop
+
+Part 1:  
+I imported the sys module to use a Command Line argument.  This is a way of managing the script or program externally by providing the script name and the input parameters from command line options while executing the script. filename = sys.argv[1] equates the name of the file to be read to the first argument on the command line after the name of the script itself. 
+  
+
+Part 2: 
+I created a function that when called would count the instances of a the letter 'e' in littlewomen.txt with the following steps.
+
+1. Read the file.
+2. Store the content of the file in a variable.
+3. Use the count() method with the argument as a letter whose frequency is required.
+4. Display the count of the letter.
+
 
 ### References  
 https://www.gutenberg.org/files/2701/2701-0.txt  

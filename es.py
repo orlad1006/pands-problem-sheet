@@ -2,37 +2,30 @@
 #Author: Orla Dowling 
 #Task: Write a program that reads in a text file and out put the numbers of e's
 
-# To read the file from the command line, we need to import and use the sys module.
-
-#python es.py
+# To read the file from the command line, I needed to import and use the sys module.
 
 import sys
 
-
-filename=sys.argv[1] # define the modydick.txt as filename. es.py = 0 mobydick.txt =1 
+text_file=sys.argv[1] # define the littlewomen .txt as filename. es.py = 0 littlewomen.txt =1 
 
 # This equates the name of the file to be read to the first argument on the command line
-# (that is, the argument following the name of the python script itself i.e es.py)
+#after the name of the python file itself
 
 
-with open (filename) as f:
+with open (text_file) as f:
     print (f.read()) #check that the file will read in correctly
 
+#Read the file.
+#Store the content of the file in a variable. 
+#Use the count() method with the argument as a letter whose frequency is required.
+#Display the count of the letter.
 
-
-def Number_of_E(filename, letter):
-    filename=sys.argv[1] 
-    with open(filename) as f:
-        text = f.read()
-        count = 0
-     
-    for char in text:
-          
-        if char == letter:
-            count += 1
-      
-    return count
+def number_of_es(txt_file, letter):
     
-  
-print(Number_of_E ('filename', 'e'))       
-
+    f = open(txt_file, "r")
+ 
+    text = f.read()
+ 
+    return text.count(letter)
+ 
+print(f"Number of es in txt file is: ", number_of_es('littlewomen.txt', 'e'))

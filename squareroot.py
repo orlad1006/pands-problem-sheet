@@ -6,22 +6,20 @@
 #Suggestion: Newton Method
 
 
-def sqrt() :
+def sqrt() :  # defining my own function sqrtto take in a positive number
+    #and output the sqaure root. I based the sqrt calculation on newtons method.
  
     num = float(input("Please enter a positive number:  "))
     approx = 0.5*num
     better = 0.5*(approx+ (num/approx))
     print(f"The square root of {num} is approx {better}.")
 
-    while (better != approx):
+    while (better != approx): 
         approx = better
         better = 0.5*(approx+ (num/approx))
-     
- 
- 
-    return better
+    return better # the retuen value
 
-sqrt()
+sqrt() #callig the function
 
 
  
