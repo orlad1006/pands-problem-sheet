@@ -226,7 +226,7 @@ Write a program called plottask.py that displays:
 They should be on the one set of axes.
 #Some marks will be given for making the plot look nice (legend etc)  
 
-# My Notes:  
+### My Notes:  
 
 Matplotlib is python’s data visualization library which is widely used for the purpose of data visualization.  
 Numpy is a general-purpose array-processing package. It provides a high-performance multidimensional array object, and tools for working with these arrays. It is the fundamental package for scientific computing with Python  
